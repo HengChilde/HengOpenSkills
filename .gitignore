@@ -1,0 +1,24 @@
+# Local settings and operating-system files
+.DS_Store
+Thumbs.db
+.local/
+.env
+.env.*
+!.env.example
+
+# Local keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies, caches, and build output
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.log

@@ -1,0 +1,12 @@
+{
+  "profile_version": 1,
+  "name": "example",
+  "description": "示例预设：清洗 ./incoming 到 ./cleaned，按月分目录，成功后把原图移入 ./incoming/已处理。复制本文件到 ~/.config/ai-metadata-strip-universal/profiles/ 后按需修改。",
+  "source": "${CWD}/incoming",
+  "output": "${CWD}/cleaned",
+  "date_subdir": "%Y%m",
+  "report": "${CWD}/cleaned/reports/%Y%m-report.json",
+  "archive": "${CWD}/incoming/已处理",
+  "existing": "reuse",
+  "suffix": "-c"
+}
