@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Agent%20Skills-SKILL.md-27364A?style=flat-square" alt="Agent Skills 格式：SKILL.md" />
-  <img src="https://img.shields.io/badge/Skills-3-42766A?style=flat-square" alt="3 个 Skill" />
+  <img src="https://img.shields.io/badge/Skills-4-42766A?style=flat-square" alt="4 个 Skill" />
   <img src="https://img.shields.io/badge/%E6%96%87%E6%A1%A3-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-D5E7B2?style=flat-square" alt="文档语言：简体中文" />
 </p>
 
@@ -27,6 +27,7 @@
 | [文章审阅编辑](./article-review-editor-skill/SKILL.md) | 逐句校对已有稿件，找出错字、病句和读起来卡顿的地方，给出尽量保留作者语气的改法。 | 帮我审阅这篇稿子，看看有没有错字、病句和读起来不顺的地方。 |
 | [商业模式画布](./business-model-craft-skill/SKILL.md) | 研究一家公司的商业模式，生成九宫格画布数据、中英文分析报告和可在本地预览的网页。 | 用商业模式画布分析 Costco，解释会员费和低毛利是怎么配合的。 |
 | [微信公众号文章读取](./wechat-article-reader-skill/SKILL.md) | 读取公开公众号文章的正文和配图，供摘要、分析或翻译。微信直读失败时，可按需配置得到大脑作为备用。 | 读一下这篇公众号文章，帮我概括主要观点，也看看文中的图表。 |
+| [AI 图片元数据清理](./ai-metadata-strip-universal/SKILL.md) | 清理图片中嵌入的 AI 生成标记和溯源元数据，保留原图像素。 | 帮我检查这批图片的 AI 生成标记，把清理后的副本另存一份。 |
 
 <a id="installation"></a>
 
@@ -45,3 +46,9 @@
 用起来有哪里卡住，或者有哪个步骤可以做得更顺，欢迎提 Issue。反馈时可以附上 Skill 名称、使用的工具和触发问题的输入，方便复现。
 
 也可以在微信里搜索公众号 **「产品变量」** 找到我。
+
+## 开源许可证
+
+本仓库的原创 Skill、脚本和配套文档采用 [MIT License](./LICENSE)。
+
+单独安装的 [remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks#license) 引擎采用 Apache-2.0 许可证。
